@@ -1,0 +1,66 @@
+{
+  "uid" : "8acb0aec863f01bc",
+  "name" : "test_running01.TestDemo01.test_b",
+  "fullName" : "case.test_running01.TestDemo01.test_b",
+  "historyId" : "32979766dbd82ef92904bf220d5274e4",
+  "time" : {
+    "start" : 1600165164659,
+    "stop" : 1600165164708,
+    "duration" : 49
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <case.test_running01.TestDemo01 object at 0x04309B50>\n\n    def test_b(self):\n        print(\"cheng_b\")\n        # 设置测试用例成功\n>       assert 0\nE       assert 0\n\ntest_running01.py:15: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-18Q5IEB"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "20624-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "case"
+  }, {
+    "name" : "testClass",
+    "value" : "case"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_running01.TestDemo01.test_b"
+  }, {
+    "name" : "package",
+    "value" : "case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8acb0aec863f01bc.json",
+  "parameterValues" : [ ]
+}

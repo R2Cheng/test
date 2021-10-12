@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-18Q5IEB",
+    "children" : [ {
+      "name" : "20624-MainThread",
+      "children" : [ {
+        "name" : "test_running01.TestDemo01.test_a",
+        "uid" : "332d764cc1144f4e",
+        "parentUid" : "ad6d423165058f42a938fef13f8cf610",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600165164655,
+          "stop" : 1600165164658,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_running01.TestDemo01.test_b",
+        "uid" : "8acb0aec863f01bc",
+        "parentUid" : "ad6d423165058f42a938fef13f8cf610",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600165164659,
+          "stop" : 1600165164708,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ad6d423165058f42a938fef13f8cf610"
+    } ],
+    "uid" : "5f8f58d40714fcd076a6a57cef01d31f"
+  } ]
+}
